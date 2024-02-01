@@ -81,6 +81,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
     background-color: lightblue;
@@ -94,7 +95,7 @@ footer {
     background-color: orange;
 }
 
-/* Media query: tablets and larger (768px and up) */ 
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -129,7 +130,7 @@ footer {
         margin-top: 79px;
     }
 
-/* Large devices (laptops and desktop, 992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
