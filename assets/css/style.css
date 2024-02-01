@@ -3,16 +3,17 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0; 
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generect project styles */
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -27,16 +28,30 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-header a{
+header a {
     text-decoration: none;
-    color: indianred;
+    color: inherit;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Main content */
