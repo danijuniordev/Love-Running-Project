@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
-*{
+* {
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
 }
 /* General styles */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,13 @@ body{
 }
 
 /* Header */
-header{
-    background-color: lightcoral;
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
@@ -34,6 +39,6 @@ main {
 }
 
 /* Footer */
-footer{
+footer {
     background-color: orange;
 }
